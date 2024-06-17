@@ -68,7 +68,6 @@ namespace Desemp2
                 HttpCookie cookiePass = new HttpCookie("password", pass);
                 cookiePass.Expires = new DateTime(2024, 12, 25);
                 this.Response.Cookies.Add(cookiePass);
-                //this.Label1.Text = "Se creó la cookie";
                 return true;
             } catch
             {

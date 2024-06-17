@@ -15,13 +15,14 @@
 
              <h2>
                  <a href="Registro.aspx">Registración</a> - 
-                 <a href="GestionArchivos.aspx">Gestión de Archivos</a> - 
+                 <a href="GestionArchivos.aspx">Gestión de Archivos</a> 
              </h2>
 
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
 
              <h3>Copyright 2024</h3>
+             <h4>Maximiliano Oscar Montaña Rojas</h4>
         </div>
     </form>
 </body>

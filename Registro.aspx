@@ -27,12 +27,12 @@
     </p>
     <p>
         Contraseña:
-        <asp:TextBox ID="Password" runat="server"></asp:TextBox>
+        <asp:TextBox ID="Password" runat="server" TextMode="Password"></asp:TextBox>
         <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ControlToValidate="Password" ErrorMessage="Debe ingresar una contraseña" ForeColor="#FF3300">*</asp:RequiredFieldValidator>
     </p>
     <p>
         Repita la contraseña:
-        <asp:TextBox ID="Password2" runat="server"></asp:TextBox>
+        <asp:TextBox ID="Password2" runat="server" TextMode="Password"></asp:TextBox>
         <asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server" ControlToValidate="Password2" ErrorMessage="Debe ingresar su contraseña nuevamente" ForeColor="#FF3300">*</asp:RequiredFieldValidator>
         <asp:CompareValidator ID="CompareValidator1" runat="server" ControlToCompare="Password" ControlToValidate="Password2" ErrorMessage="Las contraseñas ingresadas deben ser iguales." ForeColor="#FF3300">*</asp:CompareValidator>
     </p>
